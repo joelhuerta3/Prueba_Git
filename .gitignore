@@ -1,0 +1,62 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.out
+*.pid
+*.seed
+*.gz
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+.nyc_output/
+
+# MongoDB
+dump/
+*.lock
+
+# Optional: si usas Git en Windows y quieres ignorar los finales de línea
+*.orig
+
+# Express cache/debug
+.cache/
+
+# PM2 logs
+pids/
+*.log
+
+# Optional: si usas docker
+docker-compose.override.yml
